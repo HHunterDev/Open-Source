@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = SleekPhone;
+	cell = PSLinkCell;
+	detail = SleekPhoneListController;
+	icon = SleekPhone.png;
+	isController = 1;
+	label = SleekPhone;
+    };
+}

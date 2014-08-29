@@ -1,0 +1,8 @@
+Package: com.newjoy.sleekphone
+Name: SleekPhone
+Depends: mobilesubstrate, firmware (>= 7.0)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Gives the dialer view of the phone app a nice transparent instead of the white stock one. As requested on reddit, also a big, big thanks to /u/sticktron on reddit for helping in this and fixing up the final code
+Author: Hayden Hunter <hlhunter97@gmail.com>
+Section: Tweaks
