@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Status Bar</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.newjoy.sleekphone</string>
+			<key>key</key>
+			<string>kStatus</string>
+			<key>label</key>
+			<string>Hide Status Bar</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>com.newjoy.sleekphone</string>
+			<key>key</key>
+			<string>fgc</string>
+			<key>label</key>
+			<string>Text Colour</string>
+			<key>validTitles</key>
+			<array>
+							<string>White</string>
+							<string>Black</string>
+			</array>
+			<key>validValues</key>
+			<array>
+							<integer>1</integer>
+							<integer>2</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Choose if the white background shows.
+
+Quit Phone app for changes to apply.</string>
+			<key>label</key>
+			<string>Background</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Background</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.newjoy.sleekphone</string>
+			<key>key</key>
+			<string>kLCD</string>
+			<key>id</key>
+			<string>kLCD</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Dialer</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.newjoy.sleekphone</string>
+			<key>key</key>
+			<string>kDial</string>
+			<key>id</key>
+			<string>kDial</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>SleekPhone</string>
+</dict>
+</plist>
